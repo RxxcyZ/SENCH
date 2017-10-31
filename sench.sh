@@ -104,7 +104,7 @@ speed_test(){
 speed() {
 	# install speedtest
 	if  [ ! -e './speedtest.py' ]; then
-	    wget http://cloud.suyuyu.com/shell/sench/speedtest.py > /dev/null 2>&1
+	    wget https://raw.githubusercontent.com/RxxcyZ/SENCH/master/speedtest.py > /dev/null 2>&1
 	fi
 	chmod a+rx speedtest.py
 
